@@ -20,12 +20,12 @@ if (name1.length > name2.length && name1.length > name3.length)  {
 }
 
 
-else if (name1.length === name2.length) {
+else if (name1.length === name2.length && name1.length > name3.length) {
     console.log (`${name1} & ${name2} tie for the longest name`);
     
 }
 
-else if (name1.length === name3.length) {
+else if (name1.length === name3.length && name1.length > name2.length) {
     console.log (`${name1} & ${name3} tie for the longest name`);
     
 }
@@ -36,12 +36,12 @@ else if (name2.length > name1.length && name2.length > name3.length) {
 }
 
 
-else if (name2.length === name1.length) {
+else if (name2.length === name1.length && name2.length > name3.length) {
     console.log (`${name2} & ${name1} tie for the longest name`);
     
 }
 
-else if (name2.length === name3.length) {
+else if (name2.length === name3.length && name2.length > name1.length) {
     console.log (`${name2} & ${name3} tie for the longest name`);
     
 }
@@ -52,12 +52,12 @@ else if (name3.length > name1.length && name3.length > name2.length) {
 }
 
 
-else if (name3.length === name1.length) {
+else if (name3.length === name1.length && name3.length > name2.length) {
     console.log (`${name3} & ${name1} tie for the longest name`);
     
 }
 
-else if (name3.length === name2.length) {
+else if (name3.length === name2.length && name3.length > name1.length) {
     console.log (`${name3} & ${name2} tie for the longest name`);
     
 }

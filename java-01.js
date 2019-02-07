@@ -1,9 +1,4 @@
 
-
-
-
-
-
 let name1 = prompt ('what is your name?');
 console.log(name1);
 
@@ -12,6 +7,7 @@ console.log(name2);
 
 let name3 = prompt ('what is your name?');
 console.log(name3);
+
 
 
 if (name1.length > name2.length && name1.length > name3.length)  {
@@ -59,6 +55,11 @@ else if (name3.length === name1.length && name3.length > name2.length) {
 
 else if (name3.length === name2.length && name3.length > name1.length) {
     console.log (`${name3} & ${name2} tie for the longest name`);
+    
+}
+
+else if (name3.length === name2.length && name3.length === name1.length) {
+    console.log (`All three names ${name1}, & ${name2}, & ${name3} are the same length`);
     
 }
 
